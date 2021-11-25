@@ -40,3 +40,19 @@
 .bg-tom {
     background-color: tomato;
 }
+
+.section-title {
+    margin-top: 50px;
+}
+
+.color-blue {
+    color: #006fd1;
+}
+.btnbg-blue {
+    background-color: #006fd1;
+}
+
+.color-gray {
+    color: gray;
+}
+
