@@ -91,3 +91,34 @@
         display: none;
     }
 }
+
+.bg-darkblue{
+    background-color: rgb(9, 9, 49);
+}
+
+.footer-logo>img{
+    width: 100px;
+}
+.globo>img{
+    width: 5%;
+    margin-right: 5px;
+}
+
+.footer-logo2{
+    width: 200px;
+}
+
+.list{
+    list-style: none;
+}
+
+.list li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.bg-blueps {
+    background-color: rgb(39, 83, 163);
+}
