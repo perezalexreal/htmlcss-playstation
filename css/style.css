@@ -81,3 +81,13 @@
     height: 2px;
     border-radius: 10px;
 }
+
+.bg_gray{
+    background-color: rgb(190, 190, 190);
+}
+
+@media screen and (max-width: 759px){
+    #img-mobile-none {
+        display: none;
+    }
+}
