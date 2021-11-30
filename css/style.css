@@ -51,6 +51,7 @@
 
 .bg-tom {
     background-color: tomato;
+    border: 2px solid tomato;
 }
 
 .section-title {
@@ -62,7 +63,23 @@
 }
 .btnbg-blue {
     background-color: #006fd1;
+    border: 2px solid #006fd1;
+
 }
+.btnbg-blue:hover {
+    box-shadow: inset 0 0 0 2px white;
+
+}
+.btnbg-white {
+    background-color: white;
+    border: 2px solid white;
+
+}
+
+.btnbg-white:hover{
+    box-shadow: inset 0 0 0 2px royalblue;
+}
+
 
 .color-gray {
     color: gray;
@@ -121,4 +138,49 @@
 
 .bg-blueps {
     background-color: rgb(39, 83, 163);
+}
+
+
+.div-box-photo a img{
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 3px;
+    position: relative;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.div-box-photo a:hover img{
+    border-color: royalblue;
+    top: -8px;
+}
+
+
+button.bg-tom:hover{
+    box-shadow: inset 0 0 0 2px black;
+    color: white;
+}
+
+.banner {
+    height: 40px;
+    line-height: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.logo-brand {
+    padding: 0 10px;
+    width: 100px;
+    height: 100%;
+}
+
+.header-logo{
+    width: 60px;
+    height: 60px;
+    background: url('../img/play_logo.svg') no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
 }
